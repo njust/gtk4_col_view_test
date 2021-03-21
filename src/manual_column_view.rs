@@ -1,10 +1,10 @@
-use gtk4_helper::{
-    gtk4::{self, prelude::*},
+use gtk4::{
+    self, prelude::*,
     glib::{self},
-    gio
+    gio,
+    Orientation, NONE_EXPRESSION, NONE_SORTER, PropertyExpression
 };
 
-use gtk4_helper::gtk4::{Orientation, NONE_EXPRESSION, NONE_SORTER, PropertyExpression};
 
 use crate::manual_model::{
     ManualPersonObject, ManualAddressObject

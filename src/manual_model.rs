@@ -1,5 +1,5 @@
-use gtk4_helper::{
-    once_cell,
+use once_cell;
+use gtk4::{
     glib::subclass::prelude::{ObjectSubclass, ObjectImpl},
     glib::{
         self,
